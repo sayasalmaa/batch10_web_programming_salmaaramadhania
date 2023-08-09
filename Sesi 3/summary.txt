@@ -1,0 +1,11 @@
+Cascading Style Sheet(CSS) --> untuk menstyle HTML
+- Selector dgn Class(.) dan ID(#)
+- Property seperti background-color
+- value dimulai dgn : dan ;
+- Comment dengan HTML (<!---) dan CSS (/isi/)
+
+CSS Placement:
+1. Inline(dalam tag HTML)
+2. Internal(dalam tag body dgn{})
+3. Eksternal(difile terpisah dengan format css.)
+

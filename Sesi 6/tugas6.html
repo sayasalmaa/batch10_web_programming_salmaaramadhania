@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Tugas Mandiri 6</title>
+</head>
+
+<body>
+  <p id="element1">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quaerat
+    recusandae qui ullam eaque cumque ea fugit, debitis commodi ipsum illo
+    dolorum consequatur sed laudantium suscipit quis magni, maiores in?
+  </p>
+  <p id="element2">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quaerat
+    recusandae qui ullam eaque cumque ea fugit, debitis commodi ipsum illo
+    dolorum consequatur sed laudantium suscipit quis magni, maiores in?
+  </p>
+  <p id="element3">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quaerat
+    recusandae qui ullam eaque cumque ea fugit, debitis commodi ipsum illo
+    dolorum consequatur sed laudantium suscipit quis magni, maiores in?
+  </p>
+
+  <script>
+    // Fungsi untuk mengubah warna elemen menjadi warna yang ditentukan
+    function changeTextColor(elementId, color) {
+      const animatedElement = document.getElementById(elementId);
+      if (animatedElement) {
+        animatedElement.style.color = color;
+      }
+    }
+
+    // Daftar ID elemen dan warna yang akan diubah
+    const elementsToChange = [
+      { id: "element1", color: "blue" },
+      { id: "element2", color: "green" },
+      { id: "element3", color: "red" },
+    ];
+
+    // Fungsi untuk memulai animasi
+    function startTextColorAnimation() {
+      let currentIndex = 0;
+
+      // Mengatur animasi perubahan warna untuk setiap elemen
+      setInterval(() => {
+        const element = elementsToChange[currentIndex];
+        changeTextColor(element.id, element.color);
+        currentIndex = (currentIndex + 1) % elementsToChange.length;
+      }, 1000); // Interval antara perubahan warna (dalam milidetik)
+    }
+
+    // Memulai animasi setelah 2 detik
+    setTimeout(startTextColorAnimation, 2000);
+  </script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+-testing:
+
+mencari referensi=
+- tampilan / antarmuka
+- narasi / flow
+- development
+- uji coba > berpotensi ada revisi
+    > scope > versi beta > fix versi beta
+- test by app (menggunakan aplikasi)
+    > flow sesuai
+    > alur data aman
+    > return data > sesuai atau tidak
+
+testing:
+> potongan code
+> function
+> keseluruhan
+> integration
+
+1. beberapa bagian yang disiapkan sebelum produk di release:
+    1. Software testing > aplikasi
+    2. flow (apakah telah sesuai atau belum)
+    3. version > tag
+
+tugas
+- hello > push disesi 07
+    > membuat web dasar -- repository
+    > dihubungkan ke netlify
+- company profile / portofolia > sesi 8
+    > akan digunakan utk biodata
+    > base web > cv
+        > version 1.0 beta (percobaan)
+            >uji coba
+                > test pribadi (bycode , by flow, by end user)
+                > kritik saran -- utk pengembangan
+
+- client --> presensi > Quality Assurance
+    -version diberi batasa
+    - update version
+
+-------
+
+format json :
+{} > kurung kuraeal
+[] > kurung siku > array / indexing
+
+indexing dimulai 0 = 1
+index 4 = 1,2,3,4 > call > 0,1,2,3
+
+----pengumpulan ----
+link github
+
+reference : 
+https://jsonformatter.org/html-validator
+https://validator.w3.org/
+https://jigsaw.w3.org/css-validator/
+https://www.10bestdesign.com/dirtymarkup/

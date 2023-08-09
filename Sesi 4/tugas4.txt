@@ -1,0 +1,13 @@
+1.  hitung_luas_dan_keliling_lingkaran
+
+2.  phi : 3,14
+    jari-jari (r) : n
+    
+3.  luas = phi x jari-jari x jari-jari
+        = 3,14 * n * n
+
+    keliling = 2 x phi x jari-jari
+                = 2 * 3,14 * n
+
+4.  untuk melihat hasil kalkulasi luas maka cetak 'luas'
+    untuk melihat hasil kalkulasi luas maka cetak 'keliling'

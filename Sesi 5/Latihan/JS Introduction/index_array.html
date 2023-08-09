@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tipe Data Array di JS</title>
+    </head>
+    <body>
+        <h1>Tipe Data Array di JS</h1>
+        <p>
+            Array adalah sebuah variabel yang dapat menyimpan lebih dari 1 nilai. <br>
+            Array dapat diisi dengan berbagai macam tipe data. <br>
+            Macam macam tipe data:
+            <ul>
+                <li>String</li>
+                <li>Number</li>
+                <li>Boolean</li>
+                <li>Array</li>
+                <li>Object</li>
+                <li>Null</li>
+                <li>Undefined</li>
+            </ul>
+        </p>
+        <div id="hasil"></div>
+
+        <script>
+        // cara 1
+        var transport = ["Mobil", "Motor", "Pesawat", "Kapal"];
+        
+        document.getElementById("hasil").innerHTML=transport[1];
+        document.getElementById("hasil").innerHTML=transport[3];
+
+        // cara 2
+        var lokasi = new Array("Jakarta", "Bandung", "Surabaya");
+        console.log(lokasi);
+        document.getElementById("lokasi").innerHTML = `Lokasi: ${lokasi}`; 
+
+        </script>
+    </body>
+</html>

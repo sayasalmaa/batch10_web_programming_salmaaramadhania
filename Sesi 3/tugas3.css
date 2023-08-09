@@ -1,0 +1,77 @@
+html {
+  background-color: aliceblue;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 20px 12px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 6px;
+}
+
+nav ul li a:hover {
+  background-color: aliceblue;
+}
+
+section {
+  background-color: white;
+  margin: 20px;
+  padding: 5em;
+}
+
+form {
+  background-color: white;
+  margin: 20px;
+}
+
+form input {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+form input[type="submit"] {
+  margin: 0;
+  background-color: green;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+section img{
+  background-color: white;
+  border-radius: 100%;
+  border: 2px solid orangered;
+  position: absolute;
+  margin: 20px;
+}
+
+.profile-text{
+  text-align: left;
+  position: absolute;
+  margin-left: 15em;
+}
+
+section table{
+  text-align: justify;
+  margin-left: 30em;
+  margin-top: 1em;
+}
+

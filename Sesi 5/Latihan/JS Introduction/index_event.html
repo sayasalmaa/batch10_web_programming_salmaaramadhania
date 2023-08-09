@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Membuat Event</title>
+  </head>
+  <body>
+    <h1>Memahami Event</h1>
+
+    <button onclick="tampilkan_nama()">Tampilkan Nama</button>
+
+    <div id="hasil"></div>
+
+    <script>
+      // deklarasi variabel
+      var nama = "Salmaa Ramadhania";
+
+      // membuat function
+      function tampilkan_nama() {
+        // tampilkan nama
+        document.getElementById("hasil").innerHTML = nama;
+      }
+
+      // memanggil function Setelah halaman selesai di load
+      // tampilkan_nama();
+    </script>
+  </body>
+</html>
